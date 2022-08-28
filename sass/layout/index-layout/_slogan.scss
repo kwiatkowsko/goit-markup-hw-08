@@ -1,0 +1,95 @@
+.slogan {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url("/images/header/header-mobile.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 480px 400px;
+  padding: 118px 0;
+
+  &__position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../images/header/header-mobile@2x.jpg);
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url("../images/header/header-tablet.jpg");
+    background-size: 768px 400px;
+
+  }
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../images/header/header-tablet@2x.jpg);
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+      url("../images/header/header-desktop.jpg");
+    background-size: 1600px 600px;
+    padding: 200px 0;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .slogan {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../images/header/header-desktop@2x.jpg);
+
+  }
+}
+
+
+
+/*.slogan {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/slogan-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1600px auto;
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+
+  &__position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+*/

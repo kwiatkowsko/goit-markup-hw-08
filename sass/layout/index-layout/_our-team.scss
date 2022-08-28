@@ -1,0 +1,125 @@
+.our-team {
+  background-color: var(--grey-background);
+
+  >ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+  }
+}
+
+.people-box {
+  width: 450px;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+
+  background-color: var(--main-white);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  img {
+    width: 450px;
+    height: 460px;
+  }
+
+  p {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--gery-text);
+  }
+
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 122px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .our-team ul {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+
+  .people-box {
+
+    width: 354px;
+
+    img {
+      width: 354px;
+      height: 374px;
+    }
+
+    &__social-links {
+      padding: 0 74px;
+
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  .people-box {
+    width: 270px;
+
+    img {
+      width: 270px;
+      height: 260px;
+    }
+
+    &__social-links {
+      padding: 0 32px;
+    }
+  }
+}
+
+/*.our-team {
+  background-color: var(--grey-background);
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.people-box {
+  padding-bottom: 30px;
+  display: inline-block;
+  background-color: var(--main-white);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  p {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--gery-text);
+  }
+  &__social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px 0 32px;
+  }
+}
+*/

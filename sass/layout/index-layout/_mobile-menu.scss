@@ -1,0 +1,24 @@
+.menu-toggle {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+    &:hover,
+    &:active {
+        color: var(--webstudio-blue);
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .menu-toggle {
+        display: none;
+    }
+}

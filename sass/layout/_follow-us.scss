@@ -1,0 +1,35 @@
+.follow-us {
+
+  &__white-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-white);
+  }
+
+  &__links {
+    display: flex;
+
+    li {
+      padding-right: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .follow-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
