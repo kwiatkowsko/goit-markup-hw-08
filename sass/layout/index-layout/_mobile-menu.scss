@@ -24,13 +24,17 @@
 }
 
 .mobile-menu {
-    background-color:#fff;
     position: absolute;
-    color: var(--webstudio-blue);
-    top: 0;
+    width: 480px;
+    height: 796px;
     left: 0;
-    width: 200px;
-    height: 400px;
+    top: 0;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+
+    color: var(--webstudio-blue);
+
 }
 
 .is-green {
@@ -46,4 +50,19 @@
     top: 16px;
     right: 16px;
     color: #fff;
+}
+
+.menu-item a {
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+        color: var(--webstudio-blue);
+    }
 }
