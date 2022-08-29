@@ -227,12 +227,20 @@ h6 {
   transform: translate(-50%, -50%);
   background: var(--main-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   padding: 8px;
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+}
 .close-btn {
   position: absolute;
   display: flex;
@@ -760,7 +768,7 @@ address a:hover, address a:focus {
   left: 12px;
 }
 .form__space {
-  width: 448px;
+  width: 370px;
   min-height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -789,6 +797,12 @@ address a:hover, address a:focus {
   justify-content: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .form__space {
+    width: 448px;
+    height: 40px;
+  }
+}
 .lorem-ipsum {
   padding-bottom: 60px;
 }
@@ -1207,12 +1221,13 @@ address a:hover, address a:focus {
   display: flex;
   align-items: center;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
   padding-top: 20px;
   padding-bottom: 40px;
+  color: #757575;
 }
 .form-statute::before {
   content: "";
@@ -1239,6 +1254,12 @@ address a:hover, address a:focus {
   background-image: url(../images/icon_check.svg);
 }
 
+@media screen and (min-width: 1200px) {
+  .form-statute {
+    font-size: 14px;
+    line-height: 1.714;
+  }
+}
 .what-we-do {
   display: none;
 }

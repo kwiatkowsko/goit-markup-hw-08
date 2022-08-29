@@ -3,19 +3,23 @@
   align-items: center;
   justify-content: center;
 }
+
 .form-statute {
   display: flex;
   align-items: center;
 
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.16;
 
   letter-spacing: 0.03em;
 
   color: #757575;
   padding-top: 20px;
   padding-bottom: 40px;
+
+
+  color: #757575;
 
   &::before {
     content: "";
@@ -36,10 +40,17 @@
   }
 }
 
-.checkbox-sign:checked + .form-statute::before {
+.checkbox-sign:checked+.form-statute::before {
   background-color: #2196f3;
   border: none;
   width: 16px;
   height: 16px;
   background-image: url(../images/icon_check.svg);
+}
+
+@media screen and (min-width: 1200px) {
+  .form-statute {
+    font-size: 14px;
+    line-height: 1.714;
+  }
 }
