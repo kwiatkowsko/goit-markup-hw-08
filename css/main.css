@@ -881,22 +881,19 @@ address a:hover, address a:focus {
   }
 }
 .mobile-menu {
-  background-color: aqua;
+  background-color: #fff;
   position: absolute;
-  color: red;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color: var(--webstudio-blue);
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 400px;
 }
 
 .is-green {
   background-color: green;
   width: 300px;
   height: 200px;
-}
-
-.menu-container {
-  position: relative;
 }
 
 .menu-container .menu-toggle {
