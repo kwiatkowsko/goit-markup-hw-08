@@ -883,6 +883,10 @@ address a:hover, address a:focus {
 .mobile-menu {
   background-color: aqua;
   position: absolute;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .is-green {
@@ -893,6 +897,13 @@ address a:hover, address a:focus {
 
 .menu-container {
   position: relative;
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
 }
 
 .our-customers {
