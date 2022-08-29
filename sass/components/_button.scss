@@ -14,15 +14,21 @@
     padding: 10px 41px;
     margin-top: 30px;
   }
+
+  &--form {
+    display: flex;
+    padding: 10px 76px;
+  }
 }
 
+/*
 @media screen and (min-width: 768px) {
   .button {}
 }
 
 @media screen and (min-width: 1200px) {
   .button {}
-}
+}*/
 
 /*.button {
   border: none;
