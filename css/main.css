@@ -880,7 +880,7 @@ address a:hover, address a:focus {
     display: none;
   }
 }
-.mobile-menu {
+.menu-container {
   position: absolute;
   width: 480px;
   height: 796px;
@@ -888,7 +888,6 @@ address a:hover, address a:focus {
   top: 0;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  color: var(--webstudio-blue);
 }
 
 .is-green {
@@ -901,7 +900,6 @@ address a:hover, address a:focus {
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
 }
 
 .menu-item a {
