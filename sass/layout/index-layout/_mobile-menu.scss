@@ -24,6 +24,9 @@
 }
 
 .menu-container {
+    display: none;
+    padding-left: 40px;
+    padding-top: 48px;
     position: absolute;
     width: 480px;
     height: 796px;
@@ -33,6 +36,10 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
 
+}
+
+.menu-container.is-open {
+    display: block;
 }
 
 .is-green {
@@ -49,8 +56,13 @@
     right: 16px;
 }
 
+.menu-item-padding {
+    padding-bottom: 36px;
+}
+
 .menu-item a {
-    color: black;
+
+    color: #212121;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -62,4 +74,61 @@
     &:focus {
         color: var(--webstudio-blue);
     }
+}
+
+.menu-social a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+
+    letter-spacing: 0.02em;
+
+    color: var(--webstudio-blue);
+}
+
+.menu-social-list {
+    width: 357px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 46px;
+}
+
+.mobile-menu {}
+
+.menu-tel {
+    padding-top: 302px;
+
+}
+
+.menu-tel a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    padding-top: 302px;
+    color: var(--webstudio-blue);
+}
+
+.menu-mail {
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.menu-mail a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.line {
+    color: #757575;
 }
