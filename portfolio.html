@@ -23,23 +23,32 @@
         <div class="header-bar">
           <div class="navigation-bar">
             <a href="index.html"
-              ><h2 class="logo">
-                <span class="logo--blue">Web</span>Studio
-              </h2></a
-            >
+              ><h2 class="logo"><span class="logo--blue">Web</span>Studio</h2>
+            </a>
             <nav>
               <ul class="navigation">
-                <li>
+                <li class="navigation--active">
                   <a href="index.html">Agencja</a>
                 </li>
-                <li class="navigation--active">
+                <li>
                   <a href="portfolio.html">Portfolio</a>
                 </li>
                 <li>
-                  <a href="#">Kontakty</a>
+                  <a href="#">Kontakt</a>
                 </li>
               </ul>
             </nav>
+            <div>
+              <button
+                class="menu-toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
+                <svg width="40" height="40">
+                  <use href="images/icons.svg#icon-menu_40px"></use>
+                </svg>
+              </button>
+            </div>
           </div>
           <ul class="contact">
             <li>
@@ -47,6 +56,7 @@
                 <svg width="16" height="12">
                   <use href="images/icons.svg#icon-mail"></use>
                 </svg>
+
                 info@devstudio.com
               </a>
             </li>
@@ -91,10 +101,8 @@
               <li>
                 <figure class="portfolio-box__image">
                   <picture>
-                    <source srcset=images/portfolio/1/portfolio1-desktop.jpg
-                    media="(min-width: 1200px)" />
-                    <source
-                      srcset="images/portfolio/1/portfolio1-desktop@2x.jpg 2x"
+                    <source srcset="images/portfolio/1/portfolio1-desktop.jpg, 
+                    images/portfolio/1/portfolio1-desktop@2x.jpg 2x"
                       media="(min-width: 1200px)" />
                     <source
                       srcset="images/portfolio/1/portfolio1-tablet.jpg"
@@ -486,23 +494,22 @@
     <!-- ================================== STOPKA ================================== -->
     <footer class="footer-background">
       <div class="container footer">
-        <div>
-          <a href="index.html">
-            <p class="logo logo--white">
-              <span class="logo--blue">Web</span>Studio
-            </p></a
-          >
-          <address>
-            <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-            <ul>
-              <li class="address-padding">
-                <a href="mailto:info@example.com">info@example.com</a>
-              </li>
-              <li class="address-padding">
-                <a href="tel:+48111111111">+48 111 111 111</a>
-              </li>
-            </ul>
-          </address>
+        <div class="footer__tablet">
+          <div class="footer__position">
+            <a href="index.html">
+              <p class="logo logo--white">
+                <span class="logo--blue">Web</span>Studio
+              </p></a
+            >
+            <address>
+              <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+              <ul>
+                <li>
+                  <a href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+              </ul>
+            </address>
         </div>
         <div class="follow-us">
           <p class="follow-us__white-txt">dołącz do nas</p>
@@ -559,5 +566,61 @@
         </div>
       </div>
     </footer>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="menu-item menu-item-padding">
+          <a href="">Agencja</a>
+        </li>
+        <li class="menu-item menu-item-padding">
+          <a href="" class="active">Portfolio</a>
+        </li>
+        <li class="menu-item"><a href="">Kontakt</a></li>
+      </ul>
+      <ul>
+        <li class="menu-tel">
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </li>
+        <li class="menu-mail">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="menu-social-list">
+        <li class="menu-social border-right">
+          <a href="">Instagram </a>
+        </li>
+
+        <li class="menu-social border-right left-padding">
+          <a href=""> Twitter </a>
+        </li>
+        <li class="menu-social border-right left-padding">
+          <a href="">Facebook </a>
+        </li>
+        <li class="menu-social left-padding"><a href="">Linkedin</a></li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
