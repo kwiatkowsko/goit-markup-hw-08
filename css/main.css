@@ -1210,10 +1210,6 @@ address a:hover, address a:focus {
   .portfolio-box ul {
     justify-content: flex-start;
   }
-  .portfolio-box picture {
-    width: 450px;
-    height: 294px;
-  }
   .portfolio-box__description p {
     padding: 49px 24px;
   }
