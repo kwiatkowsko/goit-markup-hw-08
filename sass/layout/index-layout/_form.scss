@@ -43,7 +43,8 @@
     left: 12px;
   }
 
-  &__space {min-width: 300px;
+  &__space {
+    min-width: 300px;
     max-width: 370px;
     min-height: 40px;
 
@@ -83,8 +84,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .form__space {
-    width: 448px;
-    height: 40px;
+  .form {
+    &__space {
+      width: 448px;
+    }
   }
 }

@@ -1,5 +1,5 @@
 .lorem-ipsum {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   &__item {
     background-color: var(--grey-background);
     border-radius: 4px;
@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .lorem-ipsum {
+  .lorem-ipsum {padding-bottom: 0px;
 
 
     &__item {

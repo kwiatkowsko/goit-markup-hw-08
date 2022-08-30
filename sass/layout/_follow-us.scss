@@ -36,3 +36,10 @@
     padding-top: 60px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .follow-us {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

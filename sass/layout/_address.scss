@@ -18,7 +18,7 @@ address {
   }
 
   ul {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
 
   li {
@@ -47,8 +47,12 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  address ul {
-    padding-bottom: 0;
+  address {
+    ul {
+      padding-bottom: 0;
+    }
+
+
   }
 }
 
@@ -56,5 +60,8 @@ address {
   address {
     align-items: flex-start;
 
+    a {
+      display: block;
+    }
   }
 }

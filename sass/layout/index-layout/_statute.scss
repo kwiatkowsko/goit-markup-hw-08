@@ -47,14 +47,16 @@
   height: 16px;
   background-image: url(../images/icon_check.svg);
 }
-
+@media screen and (min-width: 480px) {
+  .form-statute {
+    font-size: 12px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .form-statute {
     font-size: 14px;
     line-height: 1.714;
+    
   }
 }
 
-@media screen and (min-width: 480px) {
-  .form-statute {font-size: 12px;}
-}

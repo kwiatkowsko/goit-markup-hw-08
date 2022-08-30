@@ -73,3 +73,29 @@
 
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .sign-in {
+    &__form {
+      display: flex;
+      flex-direction: row;
+
+      align-items: flex-start;
+    }
+
+    &__label-settings {
+      width: 358px;
+
+    }
+
+    &__button {
+      margin-left: 10px;
+    }
+
+    &__white-txt {
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 10px;
+    }
+  }
+}

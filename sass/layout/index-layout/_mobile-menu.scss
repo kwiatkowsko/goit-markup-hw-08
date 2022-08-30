@@ -28,8 +28,8 @@
     padding-left: 15px;
     padding-top: 48px;
     position: absolute;
-    min-width: 320px;
-    max-width: 767px;
+    width: 320px;
+
     height: 796px;
     left: 0;
     top: 0;
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 480px) {
     .menu-container {
-        min-width: 480px;
+        width: 480px;
         padding-left: 40px;
     }
 }
@@ -84,26 +84,37 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.22;
-
+    padding-right: 10px;
     letter-spacing: 0.02em;
-
+    
     color: var(--webstudio-blue);
+}
+.left-padding {
+    padding-left: 10px;
+}
+.border-right {
+border-right: #757575 solid 1px;
+}
+.menu-social-list {
+    width: 320px;
+    display: flex;
+
+    padding-bottom: 46px;
 }
 
 @media screen and (min-width: 480px) {
     .menu-social a {
         font-size: 18px;
     }
+
+    .menu-social-list {
+        width: 480px;
+    }
 }
 
-.menu-social-list {
-    width: 357px;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 46px;
-}
+
 
 .mobile-menu {}
 

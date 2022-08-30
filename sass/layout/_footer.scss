@@ -43,10 +43,12 @@
   .footer {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     flex-direction: row;
 
     &__position {
       align-items: flex-start;
+      padding-right: 70px;
     }
   }
 }

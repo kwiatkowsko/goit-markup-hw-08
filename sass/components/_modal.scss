@@ -25,15 +25,17 @@
 
 }
 
-@media screen and (min-width: 480px) {.modal {
-  width: 450px;
-}}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}
 
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    min-width: 528px;
     min-height: 581px;
     padding: 8px;
     border-radius: 4px;
