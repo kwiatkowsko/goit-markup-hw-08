@@ -44,8 +44,7 @@
   }
 
   &__space {
-    min-width: 300px;
-    max-width: 370px;
+    width: 300px;
     min-height: 40px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -80,6 +79,14 @@
   &--button-position {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .form {
+    &__space {
+      width: 370px;
+    }
   }
 }
 
