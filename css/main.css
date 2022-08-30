@@ -1147,7 +1147,6 @@ address a:hover, address a:focus {
 }
 .portfolio-box li {
   width: 450px;
-  height: 404px;
 }
 .portfolio-box ul {
   justify-content: center;
@@ -1205,7 +1204,9 @@ address a:hover, address a:focus {
 @media screen and (min-width: 768px) {
   .portfolio-box li {
     width: 354px;
-    height: 440px;
+  }
+  .portfolio-box li:first-child .portfolio-box__txt {
+    padding: 20px 24px 56px 24px;
   }
   .portfolio-box ul {
     justify-content: flex-start;
@@ -1222,7 +1223,6 @@ address a:hover, address a:focus {
   }
   .portfolio-box li {
     width: 370px;
-    height: 404px;
   }
   .portfolio-box__description p {
     padding: 49px 24px 50px;

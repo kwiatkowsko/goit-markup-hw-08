@@ -1,7 +1,7 @@
 .portfolio-box {
   li {
     width: 450px;
-    height: 404px;
+
   }
 
   ul {
@@ -72,7 +72,10 @@
   .portfolio-box {
     li {
       width: 354px;
-      height: 440px;
+
+      &:first-child .portfolio-box__txt {
+        padding: 20px 24px 56px 24px;
+      }
     }
 
     ul {
@@ -95,7 +98,6 @@
 
     li {
       width: 370px;
-      height: 404px;
     }
 
     &__description p {
