@@ -47,7 +47,7 @@
 
       letter-spacing: 0.03em;
       color: var(--main-white);
-      padding: 49px 45px 49px 24px;
+      padding: 77px 23px;
     }
   }
 
@@ -83,6 +83,10 @@
       width: 450px;
       height: 294px;
     }
+
+    &__description p {
+      padding: 49px 24px;
+    }
   }
 }
 
@@ -97,6 +101,10 @@
     li {
       width: 370px;
       height: 404px;
+    }
+
+    &__description p {
+      padding: 49px 24px 50px;
     }
   }
 }

@@ -1185,7 +1185,7 @@ address a:hover, address a:focus {
   line-height: 1.555;
   letter-spacing: 0.03em;
   color: var(--main-white);
-  padding: 49px 45px 49px 24px;
+  padding: 77px 23px;
 }
 .portfolio-box__txt {
   padding: 20px 24px;
@@ -1214,6 +1214,9 @@ address a:hover, address a:focus {
     width: 450px;
     height: 294px;
   }
+  .portfolio-box__description p {
+    padding: 49px 24px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .portfolio-box ul {
@@ -1224,6 +1227,9 @@ address a:hover, address a:focus {
   .portfolio-box li {
     width: 370px;
     height: 404px;
+  }
+  .portfolio-box__description p {
+    padding: 49px 24px 50px;
   }
 }
 /*.portfolio-box {
