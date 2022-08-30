@@ -893,10 +893,10 @@ address a:hover, address a:focus {
 }
 
 @media screen and (min-width: 480px) {
-  .menu __social {
+  .menu__social {
     width: 480px;
   }
-  .menu __social-item a {
+  .menu__social-item a {
     font-size: 18px;
   }
   .menu__tel {
