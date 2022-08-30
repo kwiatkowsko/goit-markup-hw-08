@@ -1426,15 +1426,19 @@ address a:hover, address a:focus {
     bottom: 0;
   }
 }*/
+.portfolio-box li {
+  width: 450px;
+  height: 404px;
+}
 .portfolio-box ul {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .portfolio-box__image {
   overflow: hidden;
   position: relative;
-  padding-bottom: 30px;
 }
 .portfolio-box__image:hover {
   cursor: pointer;
@@ -1479,6 +1483,30 @@ address a:hover, address a:focus {
   color: var(--gery-text);
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio-box li {
+    width: 354px;
+    height: 440px;
+  }
+  .portfolio-box ul {
+    justify-content: flex-start;
+  }
+  .portfolio-box picture {
+    width: 450px;
+    height: 294px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-box ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .portfolio-box li {
+    width: 370px;
+    height: 404px;
+  }
+}
 /*.portfolio-box {
   ul {
     justify-content: space-between;

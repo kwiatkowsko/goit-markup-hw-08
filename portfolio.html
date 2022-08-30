@@ -27,10 +27,10 @@
             </a>
             <nav>
               <ul class="navigation">
-                <li class="navigation--active">
+                <li>
                   <a href="index.html">Agencja</a>
                 </li>
-                <li>
+                <li class="navigation--active">
                   <a href="portfolio.html">Portfolio</a>
                 </li>
                 <li>
@@ -100,26 +100,32 @@
             <ul>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset="images/portfolio/1/portfolio1-desktop.jpg, images/portfolio/1/portfolio1-desktop@2x.jpg 2x"
-                      media="(min-width: 1200px)" />
+                   <picture
+                    ><source
+                      srcset="
+                        images/portfolio/1/portfolio1-mobile.jpg,
+                        images/portfolio/1/portfolio1-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/1/portfolio1-tablet.jpg"
-                      media="(min-width: 768px)" />
+                      srcset="
+                        images/portfolio/1/portfolio1-tablet.jpg,
+                        images/portfolio/1/portfolio1-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
                     <source
-                      srcset="images/portfolio/1/portfolio1-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/1/portfolio1-mobile.jpg"
-                      media="(max-width: 767px)" />
-                    <source
-                      srcset="images/portfolio/1/portfolio1-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)" />
+                      srcset="
+                        images/portfolio/1/portfolio1-desktop.jpg,
+                        images/portfolio/1/portfolio1-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
                     <img
-                      src="images/portfolio/1/portfolio1-desktop.jpg"
+                      src="images/portfolio/1/portfolio1-mobile.jpg"
                       alt="Otwarty laptop."
-                      width="370"
-                      height="294"
                   /></picture>
                   <div class="portfolio-box__description">
                     <p>
@@ -137,34 +143,32 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/2/portfolio2-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/2/portfolio2-mobile.jpg,
+                        images/portfolio/2/portfolio2-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/2/portfolio2-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/2/portfolio2-tablet.jpg,
+                        images/portfolio/2/portfolio2-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images/portfolio/2/portfolio2-desktop.jpg,
+                        images/portfolio/2/portfolio2-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)"
                     />
-                    <source
-                      srcset="images/portfolio/2/portfolio2-tablet.jpg"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/2/portfolio2-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/2/portfolio2-mobile.jpg"
-                      media="(max-width: 767px)"
-                    />
-                    <source
-                      srcset="images/portfolio/2/portfolio2-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)"
-                    />
                     <img
-                      src="images/portfolio/2/portfolio2-desktop.jpg"
+                      src="images/portfolio/2/portfolio2-mobile.jpg"
                       alt="Dwóch mężczyzn grających w kosza."
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio-box__description">
@@ -183,34 +187,32 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/3/portfolio3-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/3/portfolio3-mobile.jpg,
+                        images/portfolio/3/portfolio3-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/3/portfolio3-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/3/portfolio3-tablet.jpg,
+                        images/portfolio/3/portfolio3-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images/portfolio/3/portfolio3-desktop.jpg,
+                        images/portfolio/3/portfolio3-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)"
                     />
-                    <source
-                      srcset="images/portfolio/3/portfolio3-tablet.jpg"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/3/portfolio3-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/3/portfolio3-mobile.jpg"
-                      media="(max-width: 767px)"
-                    />
-                    <source
-                      srcset="images/portfolio/3/portfolio3-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)"
-                    />
                     <img
-                      src="images/portfolio/3/portfolio3-desktop.jpg"
+                      src="images/portfolio/3/portfolio3-mobile.jpg"
                       alt="Plakat rybnej restauracji."
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio-box__description">
@@ -229,34 +231,32 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/4/portfolio4-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/4/portfolio4-mobile.jpg,
+                        images/portfolio/4/portfolio4-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/4/portfolio4-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/4/portfolio4-tablet.jpg,
+                        images/portfolio/4/portfolio4-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images/portfolio/4/portfolio4-desktop.jpg,
+                        images/portfolio/4/portfolio4-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)"
                     />
-                    <source
-                      srcset="images/portfolio/4/portfolio4-tablet.jpg"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/4/portfolio4-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/4/portfolio4-mobile.jpg"
-                      media="(max-width: 767px)"
-                    />
-                    <source
-                      srcset="images/portfolio/4/portfolio4-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)"
-                    />
                     <img
-                      src="images/portfolio/4/portfolio4-desktop.jpg"
+                      src="images/portfolio/4/portfolio4-mobile.jpg"
                       alt="Słuchawki."
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio-box__description">
@@ -275,34 +275,32 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/5/portfolio5-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/5/portfolio5-mobile.jpg,
+                        images/portfolio/5/portfolio5-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/5/portfolio5-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/5/portfolio5-tablet.jpg,
+                        images/portfolio/5/portfolio5-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images/portfolio/5/portfolio5-desktop.jpg,
+                        images/portfolio/5/portfolio5-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)"
                     />
-                    <source
-                      srcset="images/portfolio/5/portfolio5-tablet.jpg"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/5/portfolio5-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/5/portfolio5-mobile.jpg"
-                      media="(max-width: 767px)"
-                    />
-                    <source
-                      srcset="images/portfolio/5/portfolio5-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)"
-                    />
                     <img
-                      src="images/portfolio/5/portfolio5-desktop.jpg"
+                      src="images/portfolio/5/portfolio5-mobile.jpg"
                       alt="Dwa pudełka."
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio-box__description">
@@ -321,29 +319,29 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/6/portfolio6-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/6/portfolio6-mobile.jpg,
+                        images/portfolio/6/portfolio6-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)" />
                     <source
-                      srcset="images/portfolio/6/portfolio6-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/6/portfolio6-tablet.jpg,
+                        images/portfolio/6/portfolio6-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+
+                    <source
+                      srcset="
+                        images/portfolio/6/portfolio6-desktop.jpg,
+                        images/portfolio/6/portfolio6-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)" />
-                    <source
-                      srcset="images/portfolio/6/portfolio6-tablet.jpg"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/6/portfolio6-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/6/portfolio6-mobile.jpg"
-                      media="(max-width: 767px)" />
-                    <source
-                      srcset="images/portfolio/6/portfolio6-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)" />
                     <img
-                      src="images/portfolio/6/portfolio6-desktop.jpg"
+                      src="images/portfolio/6/portfolio6-mobile.jpg"
                       alt="Ekran komputera."
-                      width="370"
-                      height="294"
                   /></picture>
                   <div class="portfolio-box__description">
                     <p>
@@ -361,29 +359,29 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/7/portfolio7-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/7/portfolio7-mobile.jpg,
+                        images/portfolio/7/portfolio7-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)" />
                     <source
-                      srcset="images/portfolio/7/portfolio7-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/7/portfolio7-tablet.jpg,
+                        images/portfolio/7/portfolio7-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+
+                    <source
+                      srcset="
+                        images/portfolio/7/portfolio7-desktop.jpg,
+                        images/portfolio/7/portfolio7-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)" />
-                    <source
-                      srcset="images/portfolio/7/portfolio7-tablet.jpg"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/7/portfolio7-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/7/portfolio7-mobile.jpg"
-                      media="(max-width: 767px)" />
-                    <source
-                      srcset="images/portfolio/7/portfolio7-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)" />
                     <img
-                      src="images/portfolio/7/portfolio7-desktop.jpg"
+                      src="images/portfolio/7/portfolio7-mobile.jpg"
                       alt="Otwarta książka."
-                      width="370"
-                      height="294"
                   /></picture>
                   <div class="portfolio-box__description">
                     <p>
@@ -401,29 +399,29 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/8/portfolio8-desktop.jpg
-                    media="(min-width: 1200px)" />
+                  <picture
+                    ><source
+                      srcset="
+                        images/portfolio/8/portfolio8-mobile.jpg,
+                        images/portfolio/8/portfolio8-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)" />
                     <source
-                      srcset="images/portfolio/8/portfolio8-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/8/portfolio8-tablet.jpg,
+                        images/portfolio/8/portfolio8-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)" />
+
+                    <source
+                      srcset="
+                        images/portfolio/8/portfolio8-desktop.jpg,
+                        images/portfolio/8/portfolio8-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)" />
-                    <source
-                      srcset="images/portfolio/8/portfolio8-tablet.jpg"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/8/portfolio8-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)" />
-                    <source
-                      srcset="images/portfolio/8/portfolio8-mobile.jpg"
-                      media="(max-width: 767px)" />
-                    <source
-                      srcset="images/portfolio/8/portfolio8-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)" />
                     <img
-                      src="images/portfolio/8/portfolio8-desktop.jpg"
+                      src="images/portfolio/8/portfolio8-mobile.jpg"
                       alt="Etykietka."
-                      width="370"
-                      height="294"
                   /></picture>
                   <div class="portfolio-box__description">
                     <p>
@@ -441,34 +439,32 @@
               </li>
               <li>
                 <figure class="portfolio-box__image">
-                  <picture>
-                    <source srcset=images/portfolio/9/portfolio9-desktop.jpg
-                    media="(min-width: 1200px)" />
+                   <picture
+                    ><source
+                      srcset="
+                        images/portfolio/9/portfolio9-mobile.jpg,
+                        images/portfolio/9/portfolio9-mobile@2x.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
                     <source
-                      srcset="images/portfolio/9/portfolio9-desktop@2x.jpg 2x"
+                      srcset="
+                        images/portfolio/9/portfolio9-tablet.jpg,
+                        images/portfolio/9/portfolio9-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+
+                    <source
+                      srcset="
+                        images/portfolio/9/portfolio9-desktop.jpg,
+                        images/portfolio/9/portfolio9-desktop@2x.jpg 2x
+                      "
                       media="(min-width: 1200px)"
                     />
-                    <source
-                      srcset="images/portfolio/9/portfolio9-tablet.jpg"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/9/portfolio9-tablet@2x.jpg 2x"
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset="images/portfolio/9/portfolio9-mobile.jpg"
-                      media="(max-width: 767px)"
-                    />
-                    <source
-                      srcset="images/portfolio/9/portfolio9-mobile@2x.jpg 2x"
-                      media="(max-width: 767px)"
-                    />
                     <img
-                      src="images/portfolio/9/portfolio9-desktop.jpg"
+                      src="images/portfolio/9/portfolio9-mobile.jpg"
                       alt="Pisanie na laptopie."
-                      width="370"
-                      height="294"
                     />
                   </picture>
                   <div class="portfolio-box__description">
@@ -584,10 +580,10 @@
 
       <ul class="mobile-menu">
         <li class="menu-item menu-item-padding">
-          <a href="">Agencja</a>
+          <a href="index.html">Agencja</a>
         </li>
         <li class="menu-item menu-item-padding">
-          <a href="" class="active">Portfolio</a>
+          <a href="portfolio.html" class="active">Portfolio</a>
         </li>
         <li class="menu-item"><a href="">Kontakt</a></li>
       </ul>
