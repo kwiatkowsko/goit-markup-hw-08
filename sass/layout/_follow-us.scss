@@ -1,6 +1,7 @@
 .follow-us {
 
   &__white-txt {
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +18,8 @@
 
   &__links {
     display: flex;
+
+    justify-content: center;
 
     li {
       padding-right: 10px;

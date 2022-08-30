@@ -9,7 +9,7 @@
   align-items: center;
 
   font-weight: 400;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.16;
 
   letter-spacing: 0.03em;
@@ -53,4 +53,8 @@
     font-size: 14px;
     line-height: 1.714;
   }
+}
+
+@media screen and (min-width: 480px) {
+  .form-statute {font-size: 12px;}
 }
