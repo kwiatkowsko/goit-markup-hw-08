@@ -98,6 +98,10 @@
 
     li {
       width: 370px;
+
+      &:first-child .portfolio-box__txt {
+        padding: 20px 24px;
+      }
     }
 
     &__description p {

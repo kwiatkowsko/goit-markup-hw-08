@@ -1224,6 +1224,9 @@ address a:hover, address a:focus {
   .portfolio-box li {
     width: 370px;
   }
+  .portfolio-box li:first-child .portfolio-box__txt {
+    padding: 20px 24px;
+  }
   .portfolio-box__description p {
     padding: 49px 24px 50px;
   }
