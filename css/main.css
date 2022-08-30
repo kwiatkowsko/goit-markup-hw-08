@@ -956,11 +956,6 @@ address a:hover, address a:focus {
     display: none;
   }
 }
-@media screen and (min-width: 1200px) {
-  .menu-toggle {
-    display: none;
-  }
-}
 .menu-container {
   display: none;
   padding-left: 15px;
@@ -990,65 +985,33 @@ address a:hover, address a:focus {
   right: 16px;
 }
 
-.menu-item-padding {
-  padding-bottom: 36px;
-}
-
-.menu-item a {
-  color: #212121;
-  font-family: "Roboto";
-  font-style: normal;
+.menu__item a {
+  color: var(--black-text);
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
-  letter-spacing: 0.02em;
 }
-.menu-item a:hover, .menu-item a:focus {
+.menu__item a:hover, .menu__item a:focus {
   color: var(--webstudio-blue);
 }
-
-.menu-item .active {
+.menu__item .active {
   color: var(--webstudio-blue);
 }
-
-.menu-social a {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.22;
-  padding-right: 10px;
-  letter-spacing: 0.02em;
-  color: var(--webstudio-blue);
-}
-
-.left-padding {
-  padding-left: 10px;
+.menu__item--padding {
+  padding-bottom: 36px;
 }
 
 .border-right {
-  border-right: #757575 solid 1px;
+  border-right: var(--gery-text) solid 1px;
+}
+.border-right--padding {
+  padding-left: 10px;
 }
 
-.menu-social-list {
-  width: 320px;
-  display: flex;
-  padding-bottom: 46px;
-}
-
-@media screen and (min-width: 480px) {
-  .menu-social a {
-    font-size: 18px;
-  }
-  .menu-social-list {
-    width: 480px;
-  }
-}
-.menu-tel {
+.menu__tel {
   padding-top: 302px;
 }
-
-.menu-tel a {
+.menu__tel a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1058,13 +1021,11 @@ address a:hover, address a:focus {
   padding-top: 302px;
   color: var(--webstudio-blue);
 }
-
-.menu-mail {
+.menu__mail {
   padding-top: 32px;
   padding-bottom: 64px;
 }
-
-.menu-mail a {
+.menu__mail a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -1073,11 +1034,26 @@ address a:hover, address a:focus {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
-.line {
-  color: #757575;
+.menu__social-item a {
+  font-size: 12px;
+  line-height: 1.22;
+  padding-right: 10px;
+  color: var(--webstudio-blue);
+}
+.menu__social {
+  width: 320px;
+  display: flex;
+  padding-bottom: 46px;
 }
 
+@media screen and (min-width: 480px) {
+  .menu__social {
+    width: 480px;
+  }
+  .menu__social-item a {
+    font-size: 18px;
+  }
+}
 .our-customers {
   align-content: flex-start;
   display: flex;
