@@ -1012,12 +1012,9 @@ address a:hover, address a:focus {
   padding-top: 302px;
 }
 .menu__tel a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.17;
-  letter-spacing: 0.02em;
   padding-top: 302px;
   color: var(--webstudio-blue);
 }
@@ -1026,13 +1023,10 @@ address a:hover, address a:focus {
   padding-bottom: 64px;
 }
 .menu__mail a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--gery-text);
 }
 .menu__social-item a {
   font-size: 12px;
