@@ -861,7 +861,7 @@ address a:hover, address a:focus {
 }
 
 .menu__tel {
-  padding-top: 302px;
+  padding-top: 200px;
 }
 .menu__tel a {
   font-weight: 500;
@@ -893,11 +893,14 @@ address a:hover, address a:focus {
 }
 
 @media screen and (min-width: 480px) {
-  .menu__social {
+  .menu __social {
     width: 480px;
   }
-  .menu__social-item a {
+  .menu __social-item a {
     font-size: 18px;
+  }
+  .menu__tel {
+    padding-top: 302px;
   }
 }
 .our-customers {

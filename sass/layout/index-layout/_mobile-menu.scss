@@ -82,7 +82,8 @@
 
 .menu {
     &__tel {
-        padding-top: 302px;
+
+        padding-top: 200px;
 
         a {
             font-weight: 500;
@@ -123,11 +124,17 @@
 
 @media screen and (min-width: 480px) {
 
-    .menu__social {
-        width: 480px;
+    .menu {
+        __social {
+            width: 480px;
 
-        &-item a {
-            font-size: 18px;
+            &-item a {
+                font-size: 18px;
+            }
+        }
+
+        &__tel {
+            padding-top: 302px;
         }
     }
 }
