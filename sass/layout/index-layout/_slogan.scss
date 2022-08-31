@@ -15,13 +15,12 @@
 }
 
 
-@media (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .slogan {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url(../images/header/header-mobile@2x.jpg);
-    background-size: 480px 400px;
+        rgba(47, 48, 58, 0.4)) url(../images/header/header-mobile@2x.jpg);
   }
 }
 
@@ -35,7 +34,7 @@
   }
 }
 
-@media (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .slogan {
@@ -48,14 +47,13 @@
 @media screen and (min-width: 1200px) {
   .slogan {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-      url("../images/header/header-desktop.jpg");
+        rgba(47, 48, 58, 0.4)), url("../images/header/header-desktop.jpg");
     background-size: 1600px 600px;
     padding: 180px 0;
   }
 }
 
-@media (min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .slogan {
